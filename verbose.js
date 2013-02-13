@@ -28,7 +28,7 @@ function clog(msg, id) {
 }
 
 // Showcase for verbose.js
-var myVariabe = '.';
+var myVariable = '.';
 
 (function() {
   function myFunction() {
