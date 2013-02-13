@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>verbose.js</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a name="top" class="hidden">Proceed to top</a>
+    <div id="head">
+      <div id="navigation">
+        <h1><a href="#top">verbose.js</a></h1>
+        <ul>
+          <li><a href="#top" class="nav item01">Home</a></li>
+          <li><a href="#description" class="nav item02">What is verbose.js</a></li>
+          <li><a href="#code" class="nav item03">Code Examples</a></li>
+          <li><a href="#get" class="nav item04">Get verbose.js</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="container">
+      <p class="lead">
+        Debugging JavaScript with console.log() statements is pretty common in day to day webdevelopment. verbose.js is de- signed to make your life more easy in that regard.
+      </p>
+      <h3><a name="description">What is verbose.js?</a></h3>
+      <p>
+        Are you tired of debugging JavaScript with console.log() statements, leading into either a cluttered JavaScript-Console or the need of commenting and uncommenting theese statements?
+      </p>
+      <p>
+        Then verbose.js is the tool of your choice. Beeing tired of that sort of overhead myself I've decided to put together a simple and small but yet effective mechanism for dealing with console.log statements. But let's get started and dive directly into the code.
+      </p>
+      <h3><a name="code">Example</a></h3>
+      <p>
+        <code>
+          <span class="cYellow">var</span> variable <span class="cYellow">=</span> <span class="cGreen">'.'</span>;<br>
+          clog(<span class="cGreen">'A console.log() output'</span> <span class="cYellow">+</span> variable, [<span class="cGreen">'Testing'</span>,<span class="cGreen">'myFunction'</span>]);<br />
+          <span class="cMagenta">-> A console.log() output.</span>
+        </code>
+      </p>
+      <p>
+        So verbose.js is not doing anything else as console.log() with an additional argument.
+      </p>
+      <p>
+        This additional argument determines the group this statement belongs to. You can group console.log() statements in as many groups as you want. For brevity and clearness, the second argument passed, is an array of strings. This grants for greater flexibility in Grouping your test-statements.
+      </p>
+      <code>
+        <span class="cYellow">var</span> debug <span class="cYellow">=</span> <span class="cBrightYellow">true</span>;<br>
+        <span class="cYellow">var</span> debug_groups <span class="cYellow">=</span> [<span class="cGreen">'Testing'</span>,<span class="cGreen">'Another Group'</span>];<br>
+      </code>
+      <p>
+        Within the config part, you can determine if to use console.log() statements at all and if yes, wich ones to test.
+      </p>
+      <p>
+        Note: The more groups you use in a clog statement, the less performant will verbose.js be.
+      </p>
+      <h3><a name="get">Get verbose.js</a></h3>
+      <p>
+        verbose.js is jus a very simple function. However there might still be place for imrpovements. You can check out the sample-code on <a href="https://github.com/zeidlos/verbose.js">Github</a>.
+      </p>
+    </div>
+    <div id="footer">
+      <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> use this as you like. | by <a href="http://zeidlos.com">zeidlos.com</a>
+    </div>
+  </body>
+  <!-- 
+  <script type="text/javascript" src="jquery.min.js"></script>
+-->
+  <script type="text/javascript" src="../verbose.js"></script>
+
+</html>
