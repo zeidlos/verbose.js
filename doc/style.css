@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(23,28,23);
+  color: rgb(220,220,220);
+  font-family: Ubuntu, Helvetica, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  color: white;
+}
+
+code {
+  color: white;
+  background-color: rgb(66,66,66);
+  width: 860px;
+}
+
+#head {
+  width: 100%;
+  color: rgb(23,28,23);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#navigation {
+  width: 860px;
+  margin: 0 auto;
+}
+
+#navigation li{
+  list-style: none;
+  padding-right: 10px;
+  display: inline;
+  color: rgb(23,28,23);
+}
+
+#navigation a {
+  color: rgb(23,28,23); 
+  text-decoration: none;
+}
+
+#navigation a:hover{
+  text-decoration: underline;
+}
+
+#container {
+  width: 860px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.lead {
+  font-size: 47px;
+  font-weight: 100;
+  text-align: justify;
+}
+
+#footer {
+  width: 860px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#footer a {
+  color: rgb(220,220,220);
+}
+
+.cGreen {
+  color: rgb(50,230,50);
+}
+
+.cYellow {
+  color: yellow;
+}
+
+.cMagenta {
+  color: rgb(255,0,255);
+}
+
+.cBrightYellow {
+  color: rgb(255,255,50);
+}
